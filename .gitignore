@@ -1,0 +1,21 @@
+# --- System ---
+.DS_Store
+.idea/
+__pycache__/
+*.pyc
+
+# --- Python Environments ---
+venv/
+.venv/
+.venv311/
+env/
+
+# --- Data & Models (CRITICAL) ---
+data/
+*.pth
+*.pt
+checkpoints/
+
+# --- Logs ---
+runs/
+logs/
