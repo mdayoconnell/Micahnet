@@ -10,7 +10,7 @@ venv/
 .venv311/
 env/
 
-# --- Data & Models (CRITICAL) ---
+# --- Data & Models ---
 data/
 *.pth
 *.pt
@@ -19,3 +19,18 @@ checkpoints/
 # --- Logs ---
 runs/
 logs/
+
+# --- Weights and Artifacts ---
+
+.DS_Store
+__pycache__/
+*.pyc
+.mplcache/
+
+artifacts/
+backups/
+embeddings/
+weights/
+
+cli-scratch.txt
+scratch.py
