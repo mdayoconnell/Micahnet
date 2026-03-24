@@ -38,3 +38,35 @@ cli-scratch.txt
 scratch.py
 
 for_codex/
+
+# --- System ---
+.DS_Store
+.idea/
+__pycache__/
+*.pyc
+.mplcache/
+
+# --- Python Environments ---
+venv/
+.venv/
+.venv311/
+env/
+
+# --- Data & Models ---
+data/
+*.pth
+*.pt
+checkpoints/
+weights/
+embeddings/
+artifacts/
+backups/
+
+# --- Logs ---
+runs/
+logs/
+
+# --- Local scratch / private work ---
+cli-scratch.txt
+scratch.py
+for_codex/
