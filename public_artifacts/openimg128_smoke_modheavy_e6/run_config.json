@@ -1,0 +1,47 @@
+{
+  "project_root": "/Users/micah/MicahNet",
+  "images_dir": "/Users/micah/MicahNet/data/processed/openimages_128/images",
+  "manifest": "/Users/micah/MicahNet/data/processed/openimages_128/manifest.txt",
+  "build_manifest_script": "build_manifest.py",
+  "rebuild_manifest": false,
+  "max_images": 0,
+  "val_fraction": 0.08,
+  "seed": 42,
+  "epochs": 10,
+  "batch_size": 64,
+  "lr": 0.0008,
+  "temperature": 0.2,
+  "width_mult": 1.25,
+  "embedding_dim": 384,
+  "proj_dim": 192,
+  "proj_hidden_dim": 1024,
+  "log_every": 25,
+  "ckpt_every": 300,
+  "max_train_steps": 0,
+  "img_size": 128,
+  "jitter_brightness": 0.2,
+  "jitter_contrast": 0.2,
+  "rotation_prob": 0.1,
+  "random_rotation": true,
+  "weights_dir": "weights",
+  "run_name": "openimg128_smoke_modheavy_e6",
+  "require_gpu": true,
+  "resolved_images_dir": "/Users/micah/MicahNet/data/processed/openimages_128/images",
+  "resolved_manifest": "/Users/micah/MicahNet/data/processed/openimages_128/manifest.txt",
+  "train_count": 70823,
+  "val_count": 6158,
+  "runtime": {
+    "tensorflow_version": "2.16.2",
+    "physical_cpu_count": 1,
+    "physical_gpu_count": 1,
+    "logical_gpu_count": 1,
+    "gpus": [
+      {
+        "index": 0,
+        "name": "METAL",
+        "physical_name": "/physical_device:GPU:0",
+        "compute_capability": null
+      }
+    ]
+  }
+}
